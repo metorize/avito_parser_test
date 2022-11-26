@@ -1,0 +1,4 @@
+#pip
+selenium
+#chrome
+chrome ver 107.0.5304.*
