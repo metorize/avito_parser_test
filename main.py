@@ -15,14 +15,13 @@ dic_response = {
 options = webdriver.ChromeOptions()
 
 # user-agent
-options.add_argument("user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0")
+options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0")
 
 # for ChromeDriver version 79.0.3945.16 or over
 options.add_argument("--disable-blink-features=AutomationControlled")
 
 
 # headless mode
-# options.add_argument("--headless")
 options.headless = True
 
 def pubdate_correct(pubdate):
