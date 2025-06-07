@@ -1,4 +1,7 @@
 #pip
 selenium
+# Added for automatic ChromeDriver management
+webdriver-manager
 #chrome
 chrome ver 107.0.5304.*
+
